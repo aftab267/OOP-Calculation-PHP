@@ -1,6 +1,6 @@
              <?php
 
-				class calculaton{
+				class calculatons{
 				function add($a, $b){
 					echo "sumation=".($a+$b)."<br>";
 				}
