@@ -15,13 +15,9 @@
                     <tr>
                         <td></td>
                         <td><input type="submit" name="calculation"value="Calculate"/></td>
-
                     </tr>
-					
-                    
-
-                </table>
-				<?php
+		    </table>
+		<?php
                 if(isset($_POST['calculation'])){
                 $numone=$_POST['num1'];
                 $numtwo=$_POST['num2'];
@@ -35,13 +31,8 @@
 				$cal->mul($numone,$numtwo);
 				$cal->div($numone,$numtwo);
             }
-			}
-			
+	    }			
             ?>
-			
-				
-
-
             </form>
             
 
