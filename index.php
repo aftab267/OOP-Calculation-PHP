@@ -25,7 +25,7 @@
                 echo"<span style='color:red'>Field must not be Empty!<span>";
             }else{
 				echo "First number is: ".$numone. " Second number is: ". $numtwo. "<br>";
-				$cal=new calculaton;
+				$cal=new calculatons;
 				$cal->add($numone,$numtwo);
 				$cal->sub($numone,$numtwo);
 				$cal->mul($numone,$numtwo);
