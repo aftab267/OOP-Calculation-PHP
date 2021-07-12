@@ -1,19 +1,13 @@
-             <?php
-
-				class calculatons{
-				function add($a, $b){
-					echo "sumation=".($a+$b)."<br>";
-				}
-				function sub($a, $b){
-					echo "Subtraction=".($a-$b)."<br>";				
-				}
-				function mul($a, $b){
-					echo "Multiply=".($a*$b)."<br>";				
-				}
-				function div($a, $b){
-					echo "Division=".($a/$b)."<br>";				
-				}
-				}
-				
-
-              
+                 <?php
+    class calculator{        
+        public $a,$b,$c;
+        public function sum(){
+            $this->c=$this->a+$this->b;
+            return  $this->c;
+        }
+    }
+    $cal=new calculator();
+    $cal->a=20;
+    $cal->b=30;
+    echo $cal->sum();
+    ?>
