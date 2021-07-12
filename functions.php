@@ -1,4 +1,6 @@
-                 <?php
+===========================
+create class
+<?php
     class calculator{        
         public $a,$b,$c;
         public function sum(){
@@ -11,3 +13,4 @@
     $cal->b=30;
     echo $cal->sum();
     ?>
+=======================================================
